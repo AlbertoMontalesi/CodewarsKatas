@@ -12,12 +12,10 @@
 // The correct answer would be 17.
 
 // Hint: Don't forget to check for bad values like null/undefined
-
 function countSheeps(arrayOfSheep) {
-  var myVar = 0;
-  for (i = 0; i < arrayOfSheep.length; i++) {
-    if (arrayOfSheep[i] === true) {
-      myVar += 1;
-    }
-  }; return myVar;
+  let counter = 0;
+  for (sheep of arrayOfSheep) {
+    sheep === true ? counter++ : counter
+  }
+  return counter;
 }
