@@ -4,5 +4,7 @@
 
 ## HISTORY
 
-- 19-march-2018 Rank: 7kyu 67 Honor
-- 22-march-2018 Rank: 6Kyu 123 Honor
+Date | Rank | Honor
+---|---|---
+19 March 2018 | 7 Kyu | 67 Honor
+22 March 2018 | 6 Kyu | 123 Honor
