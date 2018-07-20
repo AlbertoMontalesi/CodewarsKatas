@@ -8,3 +8,4 @@ Date | Rank | Honor
 ---|---|---
 19 March 2018 | 7 Kyu | 67 Honor
 22 March 2018 | 6 Kyu | 123 Honor
+20 July 2018 | 5 Kyu | 298 Honor
