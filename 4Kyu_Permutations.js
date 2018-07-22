@@ -15,10 +15,12 @@ function permutations(string) {
     if (!word) {
       result.push(anagram);
       return;
+      
     } 
 
+    // loop over each letter
     for (let i = 0; i < word.length; i++){
-      
+      // recursively call the function, this time without the letter that we pushed to anagram
       genPerms(word.slice(0,i) + word.slice(i + 1), anagram + word[i], result);
     }
     // use a set to remove duplicates
@@ -28,6 +30,6 @@ function permutations(string) {
   console.log(genPerms(string));
 }
 
-permutations("abc");
+permutations("abcd");
 
 
